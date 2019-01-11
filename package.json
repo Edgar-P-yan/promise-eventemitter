@@ -1,0 +1,36 @@
+{
+  "name": "promise-eventemitter",
+  "version": "0.0.1",
+  "description": "Async, Promise Based Event Emitter Class",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edgar-P-yan/promise-eventemitter.git"
+  },
+  "keywords": [
+    "async",
+    "promise",
+    "eventemitter",
+    "events",
+    "event",
+    "emitter",
+    "await"
+  ],
+  "author": "Edgar-P-yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edgar-P-yan/promise-eventemitter/issues"
+  },
+  "homepage": "https://github.com/Edgar-P-yan/promise-eventemitter#readme"
+}
