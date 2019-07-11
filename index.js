@@ -5,7 +5,8 @@ class PromiseEventEmitter {
   }
 
   /**
-   *
+   * Listen to event
+   * 
    * @param {String} eventName
    * @param {Function} listener
    * @returns {PromiseEventEmitter} for chaining
