@@ -4,6 +4,12 @@ class PromiseEventEmitter {
     this._maxListeners = PromiseEventEmitter.defaultMaxListeners;
   }
 
+  /**
+   *
+   * @param {String} eventName
+   * @param {Function} listener
+   * @returns {PromiseEventEmitter} for chaining
+   */
   on(eventName, listener) {
     this._addListener(eventName, listener, false, false, null, null, null);
     return this;
